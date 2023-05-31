@@ -7,3 +7,5 @@ Conventional commits:
 3. 
 
 Edit from new branch update/readme
+
+Editing directly from github
