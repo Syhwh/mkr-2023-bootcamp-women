@@ -2,7 +2,10 @@
 <html lang="en">
 
 <head>
-    <title></title>
+    <title>
+        My first web page
+    </title>
+    <link rel="shortcut icon" href="./favicon-48x48.cbbd161b.png" type="image/x-icon">
     <meta charset="utf-8">
     <meta name="description" content="This is a cooking recipes page ">
     <meta name="keywords" content="cooking, recipes, food, healthy, delicious">
@@ -14,8 +17,133 @@
 </head>
 
 <body>
-    <h1> Hello World </h1>
-    <h2>This is my web page</h2>
+    <!-- <h1> Hello World </h1> -->
+    <header>
+        header
+
+        <nav>
+            <ul>
+                <!-- <a href="#"><li>incorrect</li></a> -->
+                <li><a href="#images">Images</a></li>
+                <li><a href="#tables">Tables</a></li>
+                <li><a href="#text">Text</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <!-- image -->
+        <section id="images">
+            <hr>
+            <img src="https://picsum.photos/200/300" alt="random image">
+            <hr>
+            <img src="./997-200x300.jpg" alt="photo lake">
+
+            <figure>
+                <img src="./997-200x300.jpg" alt="photo lake">
+                <figcaption>Photo of a lake</figcaption>
+            </figure>
+        </section>
+
+        <!-- tables -->
+        <section id="tables">
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Column 1</th>
+                        <th scope="col">Column 2</th>
+                        <th scope="col">Column 3</th>
+                        <th scope="col">Column 4</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Row 1</td>
+                        <td>Row 1</td>
+                        <td>Row 1</td>
+                    </tr>
+                    <tr>
+                        <td>Row 2</td>
+                        <td>Row 2</td>
+                        <td>Row 2</td>
+                    </tr>
+                    <tr>
+                        <td>Row 3</td>
+                        <td>Row 3</td>
+                        <td>Row 3</td>
+                        <td>Row 3</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Footer 1</td>
+                        <td>Footer 1</td>
+                        <td>Footer 1</td>
+                        <td>Footer 1</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <!-- Text -->
+        <section id="text">
+            <!-- Headings -->
+            <h1>Title h1</h1>
+            <h2>Title h2</h2>
+            <h3>Title h3</h3>
+            <h4>Title h4</h4>
+            <h5>Title h5</h5>
+            <h6>Title h6</h6>
+            <!-- Paragraph -->
+            <p>
+                Lorem <em>Ipsum</em> is <strong> simply dummy </strong>text of the printing and typesetting industry.
+                Lorem
+                Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into
+                electronic typesetting, remaining essentially unchanged.
+                It was popularised in the 1960s with the release of
+                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+                Aldus PageMaker including versions of
+
+                Lorem Ipsum
+                <br>
+            </p>
+
+            <address>
+                <strong>My address is:</strong>
+                <span>Some Street 123</span>
+                <span>12345 Some City</span>
+                <p>Country</p>
+            </address>
+        </section>
+        <!-- lists -->
+
+        <section>
+            <ul>
+                <li>Item <strong>1</strong></li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+            <ol>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ol>
+        </section>
+
+        <!-- Links -->
+        <p>
+            This is my website <a href="https://www.google.com" target="_blank"> Cualquier cosa </a>
+        </p>
+        <a href="https://www.google.com" target="_blank">Google</a>
+
+
+    </main>
+    <footer>
+        footer
+    </footer>
 </body>
 
 </html>
