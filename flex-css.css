@@ -1,0 +1,31 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-items: stretch;
+    /* height: 100px; */
+
+}
+
+
+.flex-item{
+    width: 100px;
+    /* height: 100%; */
+    background-color: rgb(241, 174, 174);
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.flex-item:nth-child(1){
+    flex-grow: 1;
+    height: 200px;
+    order: 0;
+    flex-shrink: 0;
+}
+.flex-item:nth-child(2){
+    flex-grow: 2;
+    height: 200px;
+    order: 0;
+}

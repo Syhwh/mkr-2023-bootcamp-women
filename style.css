@@ -1,0 +1,105 @@
+/* normalizar */
+
+/* seleccion por tags */
+:root {
+
+    font-size: 16px;
+}
+
+body {
+    background-color: #ccc;
+    font-size: 30px;
+    /* 
+    RGB (255 255 255)
+    RGBA (255 255 255 0.5)
+    HEX #f1f1f1
+     */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+}
+
+/*  seleccion por clases */
+.navigation {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation__item {
+
+    font-size: large;
+    font-weight: bold;
+}
+
+.navigation__item a {
+    text-decoration: none;
+    color: #00f439;
+}
+
+body {
+    background-color: aqua;
+}
+
+/* seleccion por id */
+
+#encabezado {
+    color: #ed0ac4;
+}
+
+/* especificdad -> cuál es prioritario  */
+
+#h2_id {
+    color: rgb(238, 255, 0);
+    font-size: 2rem;
+}
+
+.h2_class {
+    color: rgb(34, 255, 0);
+}
+
+h2 {
+    color: #f00;
+}
+
+h2 {
+    color: rgb(89, 0, 255);
+}
+.parent{
+    font-size: 10px;
+}
+.child{
+    font-size: 2em;
+}
+
+h1 {
+background-color: #00f439;
+display: inline;
+}
+h2{
+    background-color: #f00;
+display: inline;
+}
+h3{
+    background-color: #0f0;
+    display: inline-block;
+}
+h4{
+    background-color: #f0f;
+    display: inline-block;
+}
+h5{
+    background-color: #ff0;
+    display: inline-block;
+}
+h6{
+    background-color: #0ff;
+}
+p{
+    background-color: #f00;
+}
+.subrayado{
+    background-color: #ff0;
+}

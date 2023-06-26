@@ -1,0 +1,16 @@
+
+
+.box {
+    margin-top: 100px;
+    height: 80px;
+    width: 100%;
+    background-color: bisque;
+    position: sticky;
+    top: 50px;
+    left: 150px;
+}
+article h2 {
+    position: sticky;
+    top: 0px;
+    background-color: lightblue;
+}

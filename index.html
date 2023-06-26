@@ -9,7 +9,8 @@
     <meta charset="utf-8">
     <meta name="description" content="This is a cooking recipes page ">
     <meta name="keywords" content="cooking, recipes, food, healthy, delicious">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="position_styles.css">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.11.0/build/cssnormalize/cssnormalize-min.css">
     <script src="./demo.js"></script>
     <style>
 
@@ -19,21 +20,25 @@
 <body>
     <!-- <h1> Hello World </h1> -->
     <header>
-        header
+        <h2 id="h2_id" class="h2_class">header</h2>
+        <div class="parent">
+            <p class="child" >This is a paragraph</p>
+        </div>
+
 
         <nav>
-            <ul>
+            <ul class="navigation">
                 <!-- <a href="#"><li>incorrect</li></a> -->
-                <li><a href="#images">Images</a></li>
-                <li><a href="#tables">Tables</a></li>
-                <li><a href="#text">Text</a></li>
+                <li class="navigation__item"><a href="#images">Images</a></li>
+                <li class="navigation__item"><a href="#tables">Tables</a></li>
+                <li class="navigation__item"><a href="#text">Text</a></li>
             </ul>
         </nav>
     </header>
     <main>
 
 
-        <form>
+        <form style="border: 2px solid red">
             <fieldset>
                 <legend> Form elements</legend>
                 <fieldset>
@@ -173,7 +178,7 @@
                 Ipsum has been the
                 industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
                 scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-                into
+                into<span class="subrayado" ><strong>electronic typesetting, remaining essentially unchanged.</strong></span>
                 electronic typesetting, remaining essentially unchanged.
                 It was popularised in the 1960s with the release of
                 Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
